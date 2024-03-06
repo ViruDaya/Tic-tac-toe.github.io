@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+<body>
+<h1> Developer ViruDaya</h1>
+<h2><u>Tic Tac Toe</u></h2>
+<p><div id="result"></div></p>
+<div class="board">
+    <div class="row">
+        <div class="cell" onclick="play(this)"></div>
+        <div class="cell" onclick="play(this)"></div>
+        <div class="cell" onclick="play(this)"></div>
+    </div>
+    <div class="row">
+        <div class="cell" onclick="play(this)"></div>
+        <div class="cell" onclick="play(this)"></div>
+        <div class="cell" onclick="play(this)"></div>
+    </div>
+    <div class="row">
+        <div class="cell" onclick="play(this)"></div>
+        <div class="cell" onclick="play(this)"></div>
+        <div class="cell" onclick="play(this)"></div>
+    </div>
+</div>
+<p><button onclick="resetGame()"><ion-icon name="refresh-outline"></ion-icon>Reset</button></p>
+<h4>Powered by ViruDaya</h4>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="tic-tac-toe.js"></script>
+
+</body>
+</html>
